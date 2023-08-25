@@ -19,7 +19,7 @@ import (
 )
 
 func main() {
-	conn, err := net.Dial("tcp", "tcp-server-3192360657:5000")
+	conn, err := net.Dial("tcp", "tcp-serve-3192360657:5000")
 	if err != nil {
 		fmt.Println("Error connecting:", err)
 		os.Exit(1)
